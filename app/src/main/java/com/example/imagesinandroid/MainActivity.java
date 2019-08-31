@@ -35,8 +35,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private ImageView imgView;
     private final int IMG_REQUEST=1;
+
     Bitmap bitmap;
-    private String UploadUrl="http://192.168.1.3/android/imageUpload.php";
+    // Replace X-X-X with your IP Address Along with Folder Where You've placed your PHP File in the below line
+
+    private String UploadUrl="http://X-X-X/android/imageUpload.php"; // Replace X-X-X with your IP Address Along with Folder Where You've placed your PHP File
 
 
 
